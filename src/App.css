@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+}
+
+.calculator {
+  display: inline-block;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.display {
+  width: 95%;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 18px;
+  text-align: right;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 15px;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  color: #333;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: coral;
+}
+
+button:active {
+  background-color: #c0c0c0;
+}
+
+button:nth-child(4n) {
+  background-color: #0077ff;
+  color: white;
+}
+
+button:nth-child(4n):hover {
+  background-color: #004a9a;
+}
