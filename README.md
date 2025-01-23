@@ -8,3 +8,4 @@ Simple calculator built with React.
 *   Parentheses
 *   Clear and equals buttons
 *   Error handling
+![preview of calculator project](/Preview.png)
