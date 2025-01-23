@@ -1,3 +1,10 @@
-# calculator
+# React Calculator App
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/saitejagovikar/calculator)
+Simple calculator built with React.
+
+**Features:**
+
+*   Basic arithmetic operations (+, -, \*, /)
+*   Parentheses
+*   Clear and equals buttons
+*   Error handling
